@@ -4,5 +4,6 @@ public enum PaymentMethod
 {
     CreditCard,
     PayPal,
-    GooglePay
+    GooglePay,
+    ApplePay
 }

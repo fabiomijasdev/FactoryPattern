@@ -16,6 +16,9 @@ public class PaymentFactory
             case PaymentMethod.GooglePay:
                 return new GooglePayPayment();
 
+            case PaymentMethod.ApplePay:
+                return new ApplePayPayment();
+
             default:
                 throw new NotSupportedException($"{paymentMethod} is not curremtly supported as a payment method.");
         }
