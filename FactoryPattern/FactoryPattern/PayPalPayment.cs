@@ -4,6 +4,6 @@ public class PayPalPayment : IPayment
 {
     public void Pay(double amount)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Successfully paid ${amount} to merchant using PayPal");
     }
 }
